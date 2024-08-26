@@ -14,12 +14,15 @@ This is the overview of the article.
 
 
 ## Contents
-- [News 🌟](#News)
-- [Contents](#Contents)
-- [Models](#Models)
-  - [Non-transformer-based models](#Non-transformer-based models)
-  - [Transformer-based models](#Transformer-based models)
-    -[Encoder-only models](#Encoder-only models)
+- [News 🌟](#-news)
+- [Contents](#-contents)
+- [Models](#-models)
+  - [Non\-transformer\-based models](#-non-transformer-based-models)
+  - [Transformer\-based models](#-transformer-based-models)
+    - [Encoder\-only models](#-encoder-only-models)
+    - [Decoder\-only models](#-decoder-only-models)
+    - [Encoder\-decoder models](#-encoder-decoder-models)
+
 
 
 ## Models
@@ -29,6 +32,10 @@ This is the overview of the article.
 ### Transformer-based models
 
 #### Encoder-only models
+
+#### Decoder-only models
+
+#### Encoder-decoder models
 
 
 
