@@ -16,6 +16,10 @@ This is the overview of the article.
 ## Contents
 - [News 🌟](#-News)
 - [Contents](#-Contents)
+- [Models](#-Models)
+  - [Non-transformer-based models](#-Non-transformer-based models)
+  - [Transformer-based models](#-Transformer-based models)
+    -[Encoder-only models](#-Encoder-only models)
 
 
 
@@ -28,18 +32,3 @@ This is the overview of the article.
 
 
 
-
-
-
-
-
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
