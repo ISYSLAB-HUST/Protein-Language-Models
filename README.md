@@ -8,9 +8,9 @@
 - 💥 [2024/08] ...
 - 💥 [2024/09] ...
 
-![Protein-Language-Models](https://github.com/shuxiang111/Protein-Language-Models/blob/c71da17722411fb364288d313198d37384f8049d/figures/overview.png)
+![Protein-Language-Models-Overview](https://github.com/shuxiang111/Protein-Language-Models/blob/c71da17722411fb364288d313198d37384f8049d/figures/overview.png)
 
-This is the overview of the article.
+This is the overview of our article.
 
 
 ## Contents
@@ -23,7 +23,7 @@ This is the overview of the article.
     - [Decoder\-only models](#-decoder-only-models)
     - [Encoder\-decoder models](#-encoder-decoder-models)
 - [Datasets](#-datasets)
-  - [Pre\-training](#-pre-training)
+  - [Pre\-training datasets](#-pre-training-datasets)
   - [Benchmarks](#-benchmarks)
 - [Tools](#-tools)
 
@@ -32,6 +32,14 @@ This is the overview of the article.
 
 ### Non-transformer-based models
 
+Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
+---- | ---- | ---- | ---- | ---- | ---- |
+ProtVec|2016.05|-|skip-gram|UniProt|×
+ProtVecX|-|-|-|-|×
+Seq2vec|2017.04|-|RNN|-|×
+UniRep|2018.01|1.2B|LSTM|UniProt|×
+SeqVec|2020.03|-|CNN|UniProt|×
+UDSMProt|2022.09|-|GPT|-|×
 ### Transformer-based models
 
 #### Encoder-only models
@@ -43,7 +51,7 @@ This is the overview of the article.
 
 ## Datasets
 
-### Pre-training
+### Pre-training datasets
 
 ### Benchmarks
 
