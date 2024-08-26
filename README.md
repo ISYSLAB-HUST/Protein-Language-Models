@@ -15,7 +15,7 @@ This is the overview of our article.
 
 ## Contents
 
-- [News 🌟](#news)
+- [News 🌟](#-news )
 - [Contents](#contents)
 - [Models](#models)
   - [Non\-transformer\-based models](#-non-transformer-based-models)
