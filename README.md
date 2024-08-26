@@ -54,10 +54,18 @@ UDSMProt|2022.09|-|GPT|-|×
 
 ### Pre-training datasets
 
+Dataset | Time | Scale | Link
+---- | ---- | ---- | ----
+UniProtKB/Swiss-Prot|2023.11|570K|√
+
 ### Benchmarks
 
 
 ## Tools
+
+Tool | Link
+---- | ----
+MMseq2|√
 
 
 
