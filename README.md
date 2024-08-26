@@ -15,18 +15,18 @@ This is the overview of our article.
 
 ## Contents
 
-- [News 🌟](#-news)
-- [Contents](#-contents)
-- [Models](#-models)
+- [News 🌟](#news)
+- [Contents](#contents)
+- [Models](#models)
   - [Non\-transformer\-based models](#-non-transformer-based-models)
   - [Transformer\-based models](#-transformer-based-models)
     - [Encoder\-only models](#-encoder-only-models)
     - [Decoder\-only models](#-decoder-only-models)
     - [Encoder\-decoder models](#-encoder-decoder-models)
-- [Datasets](#-datasets)
+- [Datasets](#datasets)
   - [Pre\-training datasets](#-pre-training-datasets)
-  - [Benchmarks](#-benchmarks)
-- [Tools](#-tools)
+  - [Benchmarks](#benchmarks)
+- [Tools](#tools)
 
 
 ## Models
