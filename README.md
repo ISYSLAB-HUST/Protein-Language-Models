@@ -90,16 +90,17 @@ PoET|2023.11|201M|GPT|-|×
 
 Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 ---- | ---- | ---- | ---- | ---- | ---- |
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
+Fold2Seq|2021.01|-|Transformer|-|×
+MSA-to-proteion transformer|2022.04|-|Transformer|-|×
+MSA-Transformer|2021.07|110M|Transformer|Uniref50|×
+ProstT5|2023.07|3B|T5|PDB|×
+xTrimoPGLM|2023.07|100B|GLM|Uniref90,ColdFoldDB|×
+pAbT5|2023.10|-|T5|-|×
+Prot-T5|2022.06|30B|T5|Uniref50|×
+AlphaFold2|2020.11|-|Transformer|Uniref30,Uniref90,PDB,BFD|×
+AlphaFold3|2024.05|-|-|-|×
+OntoProtein|2022.06|-|Transformer|-|×
+Mansoor et al.|2021.09|100M|Transformer|-|×
 
 ## Datasets
 
