@@ -141,13 +141,13 @@ PEER|2022.11|390K|√
 
 Tool | Link
 ---- | ----
-MMseq2|√
-HHblits&HHfilter|√
-Umap&t-SNE|√
-PyMOL|√
-TM-align|√
-BLAST|√
-Foldseek|√
+MMseq2|[√](https://github.com/soedinglab/mmseqs2)
+HHblits&HHfilter|[√](https://github.com/soedinglab/hh-suite)
+Umap&t-SNE|[Umap](https://umap-learn.readthedocs.io/en/latest/)&[t-SNE](https://scikit-learn.org/0.18/preface.html)
+PyMOL|[√](https://www.pymol.org/)
+TM-align|[√](https://zhanggroup.org/TM-align/)
+BLAST|[√](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+Foldseek|[√](https://search.foldseek.com/search)
 
 
 
