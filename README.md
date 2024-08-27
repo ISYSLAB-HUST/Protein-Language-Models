@@ -77,27 +77,29 @@ SS-pLM|2023.08|14.8M|Transformer|Uniref50|×
 
 Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 ---- | ---- | ---- | ---- | ---- | ---- |
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
-ProtVecX|-|-|-|-|×
+ProGen|2020.03|1.2B|GPT|Uniparc SWISS|×
+ProtGPT2|2021.01|738M|GPT|Uniref50|×
+ZymCTRL|2022.01|738M|GPT|BRENDA|×
+RITA|2022.05|1.2B|GPT|Uniref10|×
+IgLM|2022.12|13M|GPT|-|×
+LM-Design|2023.02|664M|GPT|-|×
+ProGen2|2023.10|151M-6.4B|GPT|Uniref90,BFD30,PDB|×
+PoET|2023.11|201M|GPT|-|×
 
 #### Encoder-decoder models
 
+Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
+---- | ---- | ---- | ---- | ---- | ---- |
+ProtVecX|-|-|-|-|×
+ProtVecX|-|-|-|-|×
+ProtVecX|-|-|-|-|×
+ProtVecX|-|-|-|-|×
+ProtVecX|-|-|-|-|×
+ProtVecX|-|-|-|-|×
+ProtVecX|-|-|-|-|×
+ProtVecX|-|-|-|-|×
+ProtVecX|-|-|-|-|×
+ProtVecX|-|-|-|-|×
 
 ## Datasets
 
