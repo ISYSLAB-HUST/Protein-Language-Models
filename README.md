@@ -99,7 +99,7 @@ pAbT5|2023.10|-|T5|-|×
 Prot-T5|2022.06|30B|T5|Uniref50|×
 AlphaFold2|2020.11|-|Transformer|Uniref30,Uniref90,PDB,BFD|×
 AlphaFold3|2024.05|-|-|-|×
-OntoProtein|2022.06|-|Transformer|-|×
+OntoProtein|2022.06|-|Transformer|ProteinKG25|×
 Mansoor et al.|2021.09|100M|Transformer|-|×
 
 ## Datasets
@@ -109,15 +109,45 @@ Mansoor et al.|2021.09|100M|Transformer|-|×
 Dataset | Time | Scale | Link
 ---- | ---- | ---- | ----
 UniProtKB/Swiss-Prot|2023.11|570K|√
+UniProtKB/TrEMBL|2023.11|251M|√
+UniRef100|2023.11|251M|√
+UniRef90|2023.11|314M|√
+UniRef50|2023.11|632M|√
+UniParc|2023.11|314M|√
+UniClust30|-|-|√
+Pfam|2023.09|47M|√
+BFD|2021.07|2.5B|√
+PDB|2023.12|214K|√
+AlphafoldDB|2021.11|200M|√
+BRENDA|-|-|√
+MGnify|-|-|√
 
 ### Benchmarks
 
+Dataset | Time | Scale | Link
+---- | ---- | ---- | ----
+TAPE|2021.09|120K|√
+ProteinGym|2022.12|300K|√
+CASP|2022.01|-|√
+SCOP|2023.01|914K|√
+CATH|2023.02|151M|√
+EC|2023.11|2.6M|√
+GO|2023.11|1.5M|√
+CAMEO|-|-|√
+Flip|2022.01|320K|√
+PEER|2022.11|390K|√
 
 ## Tools
 
 Tool | Link
 ---- | ----
 MMseq2|√
+HHblits&HHfilter|√
+Umap&t-SNE|√
+PyMOL|√
+TM-align|√
+BLAST|√
+Foldseek|√
 
 
 
