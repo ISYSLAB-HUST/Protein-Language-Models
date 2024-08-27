@@ -36,7 +36,7 @@ This is the overview of our article.
 Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 ---- | ---- | ---- | ---- | ---- | ---- |
 [ProtVec](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141287)|2015.11|-|Skip-gram|UniProtKB/Swiss-Prot|×
-ProtVecX|-|-|-|-|×
+[ProtVecX](https://www.nature.com/articles/s41598-019-38746-w)|2019.03|-|ProtVec|UniProtKB/Swiss-Prot|×
 Seq2vec|2017.04|-|RNN|-|×
 UniRep|2018.01|1.2B|LSTM|UniProt|×
 SeqVec|2020.03|-|CNN|UniProt|×
