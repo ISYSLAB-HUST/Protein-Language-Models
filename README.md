@@ -48,7 +48,7 @@ Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 
 Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 ---- | ---- | ---- | ---- | ---- | ---- |
-ESM-3|2023.06|98B|-|Uniref90|√
+[ESM-3](https://www.biorxiv.org/content/10.1101/2024.07.01.600583v1)|2024.07|98B|-|-|[√](https://github.com/evolutionaryscale/esm)
 ESM-Fold|2022.11|300M|ESM-2|Uniref50|×
 ESM-2|2022.07|8M-15B|RoBERTa|Uniref50,PDB|×
 ESM-1b|2020.02|650M|RoBERTa|Uniref50|×
