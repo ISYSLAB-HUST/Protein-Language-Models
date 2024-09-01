@@ -65,13 +65,13 @@ Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 [TAPE-BERT](https://arxiv.org/abs/1906.08230)|2019.06|38M|BERT|Pfam|[√](https://github.com/songlab-cal/tape)
 [DistilProtBert](https://academic.oup.com/bioinformatics/article/38/Supplement_2/ii95/6701995)|2022.09|230M|ProtBert|UniRef50|[√](https://github.com/yarongef/DistilProtBert)
 [ProtBert](https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3)|2020.07|420M|BERT|UniRef100|[√](https://huggingface.co/Rostlab/prot_bert)
-BioBert|2019.02|110M|BERT|-|×
-Bioseq-Bert|2022.05|110M|BERT|Uniprot|×
-AminoBert|2023.03|110M|BERT|UniprotKB,Pfam|×
-CLEAN|2024.02|100M|-|UniprotKB,PDB,Pfam|×
-SignalP 6.0|2023.10|42M|-|UniprotKB|×
-BlueBert|2020.04|110M/345M|BERT|-|×
-SS-pLM|2023.08|14.8M|Transformer|Uniref50|×
+[BioBert](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506)|2019.09|110M|BERT|-|[√](https://github.com/dmis-lab/biobert)
+[Bioseq-Bert](https://academic.oup.com/nar/article/49/22/e129/6377401?login=false)|2021.09|-|BERT|-|×
+[AminoBert](https://www.nature.com/articles/s41587-022-01432-w)|2022.10|-|BERT|-|×
+[CLEAN](https://www.science.org/doi/10.1126/science.adf2465)|2023.03|-|-|-|[√](https://github.com/tttianhao/CLEAN)
+[SignalP 6.0](https://www.nature.com/articles/s41587-021-01156-3)|2022.01|-|BERT|UniRef100|[√](https://github.com/fteufel/signalp-6.0)
+[BlueBert](https://arxiv.org/abs/1906.05474)|2019.06|-|BERT|-|[√](https://github.com/ncbi-nlp/bluebert)
+[SS-pLM](https://www.biorxiv.org/content/10.1101/2023.08.04.551626v1.abstract)|2023.08|14.8M|Transformer|UniRef50|×
 
 #### Decoder-only models
 
