@@ -108,9 +108,9 @@ Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 
 Dataset | Time | Scale | Link
 ---- | ---- | ---- | ----
-UniProtKB/Swiss-Prot|2023.11|570K|[√](https://www.uniprot.org/uniprotkb?query=*)
-UniProtKB/TrEMBL|2023.11|251M|[√](https://www.uniprot.org/uniprotkb?query=*)
-UniRef100|2023.11|314M|[√](https://www.uniprot.org/uniref?query=*)
+[UniProtKB/Swiss-Prot](https://link.springer.com/protocol/10.1007/978-1-4939-3167-5_2)|2023.11|570K|[√](https://www.uniprot.org/uniprotkb?query=*)
+[UniProtKB/TrEMBL](https://academic.oup.com/bioinformatics/article/15/3/219/317279?login=false)|2023.11|251M|[√](https://www.uniprot.org/uniprotkb?query=*)
+UniRef100[[1](https://academic.oup.com/bioinformatics/article/23/10/1282/197795?login=false),[2](https://academic.oup.com/bioinformatics/article/31/6/926/214968?login=false)]|2023.11|314M|[√](https://www.uniprot.org/uniref?query=*)
 UniRef90|2023.11|150M|[√](https://www.uniprot.org/uniref?query=*)
 UniRef50|2023.11|53M|[√](https://www.uniprot.org/uniref?query=*)
 UniParc|2023.11|632M|[√](https://www.uniprot.org/uniparc?query=*)
