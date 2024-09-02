@@ -108,19 +108,19 @@ Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 
 Dataset | Time | Scale | Link
 ---- | ---- | ---- | ----
-UniProtKB/Swiss-Prot|2023.11|570K|√
-UniProtKB/TrEMBL|2023.11|251M|√
-UniRef100|2023.11|251M|√
-UniRef90|2023.11|314M|√
-UniRef50|2023.11|632M|√
-UniParc|2023.11|314M|√
-UniClust30|-|-|√
-Pfam|2023.09|47M|√
-BFD|2021.07|2.5B|√
-PDB|2023.12|214K|√
-AlphafoldDB|2021.11|200M|√
-BRENDA|-|-|√
-MGnify|-|-|√
+UniProtKB/Swiss-Prot|2023.11|570K|[√](https://www.uniprot.org/uniprotkb?query=*)
+UniProtKB/TrEMBL|2023.11|251M|[√](https://www.uniprot.org/uniprotkb?query=*)
+UniRef100|2023.11|314M|[√](https://www.uniprot.org/uniref?query=*)
+UniRef90|2023.11|150M|[√](https://www.uniprot.org/uniref?query=*)
+UniRef50|2023.11|53M|[√](https://www.uniprot.org/uniref?query=*)
+UniParc|2023.11|632M|[√](https://www.uniprot.org/uniparc?query=*)
+[UniClust30](https://academic.oup.com/nar/article/45/D1/D170/2605730?login=false)|2016.11|-|[√](https://uniclust.mmseqs.com/)
+Pfam|2023.09|47M|[√](https://www.ebi.ac.uk/interpro/entry/pfam/)
+BFD|2021.07|2.5B|[√](https://bfd.mmseqs.com/)
+PDB|2023.12|214K|[√](https://www.rcsb.org/)
+AlphafoldDB|2021.11|200M|[√](https://alphafold.ebi.ac.uk/)
+[BRENDA](https://academic.oup.com/nar/article/30/1/47/1332638?login=false)|2002.01|-|[√](https://www.brenda-enzymes.org/)
+[MGnify](https://academic.oup.com/nar/article/51/D1/D753/6880769?login=false)|2022.12|-|[√](https://www.ebi.ac.uk/metagenomics)
 
 ### Benchmarks
 
