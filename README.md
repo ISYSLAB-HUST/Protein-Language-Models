@@ -106,6 +106,8 @@ Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 
 ## Datasets
 
+Protein datasets can be classified into two categories depending on whether they include annotations: pre-training datasets and benchmarks. Pre-training datasets are typically used for self-supervised pre-training as they lack labels, whereas benchmarks, which contain labeled data, are used for supervised fine-tuning or model evaluation. We provide the relevant papers and links for the pre-training datasets and benchmarks of the present popular protein language models in the following table.
+
 ### Pre-training datasets
 
 Dataset | Time | Scale | Link
@@ -140,6 +142,8 @@ Dataset | Time | Scale | Link
 [PEER](https://proceedings.neurips.cc/paper_files/paper/2022/hash/e467582d42d9c13fa9603df16f31de6d-Abstract-Datasets_and_Benchmarks.html)|2022.11|390K|[√](https://github.com/DeepGraphLearning/PEER_Benchmark)
 
 ## Tools
+
+We provide links to commonly used protein tools in the following table for readers to use.
 
 Tool | Link
 ---- | ----
