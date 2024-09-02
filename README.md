@@ -1,17 +1,17 @@
 # Protein-Language-Models
 
-简介:...
-
+......(简介)
 
 ## News
 
-- 🌟 [2024/08] ...
 - 🌟 [2024/09] ...
+- 🌟 [2024/10] ...
 
-![Protein-Language-Models-Overview](https://github.com/shuxiang111/Protein-Language-Models/blob/c71da17722411fb364288d313198d37384f8049d/figures/overview.png)
+## Overview
 
 This is the overview of our article.
 
+![Protein-Language-Models-Overview](https://github.com/shuxiang111/Protein-Language-Models/blob/c71da17722411fb364288d313198d37384f8049d/figures/overview.png)
 
 ## Contents
 
@@ -30,6 +30,8 @@ This is the overview of our article.
 
 
 ## Models
+
+We categorize protein models into two sections: Non-transformer-based models and Transformer-based models. The Transformer-based models are further divided into three parts: Encoder-only models, Decoder-only models, and Encoder-decoder models. In the following table, we provide related information on each model, including the paper link, release time, parameters, base model, pretraining dataset, and whether the model is open-source, along with the link to the open-source code for users to reference.
 
 ### Non-transformer-based models
 
@@ -126,16 +128,16 @@ AlphafoldDB[[1](https://www.nature.com/articles/s41586-021-03819-2),[2](https://
 
 Dataset | Time | Scale | Link
 ---- | ---- | ---- | ----
-TAPE|2021.09|120K|√
-ProteinGym|2022.12|300K|√
-CASP|2022.01|-|√
-SCOP|2023.01|914K|√
-CATH|2023.02|151M|√
-EC|2023.11|2.6M|√
-GO|2023.11|1.5M|√
-CAMEO|-|-|√
-Flip|2022.01|320K|√
-PEER|2022.11|390K|√
+[TAPE](https://proceedings.neurips.cc/paper_files/paper/2019/hash/37f65c068b7723cd7809ee2d31d7861c-Abstract.html)|2021.09|120K|[√](https://github.com/songlab-cal/tape)
+[ProteinGym](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10723403/)|2022.12|300K|[√](https://proteingym.org/)
+[CASP](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26237)|2022.01|-|[√](https://predictioncenter.org/)
+[SCOP](https://academic.oup.com/nar/article/28/1/257/2384406?login=false)|2023.01|914K|[√](http://scop.berkeley.edu/)
+[CATH](https://www.cell.com/structure/fulltext/S0969-2126(97)00260-8?cc\u003dy=)|2023.02|151M|[√](http://www.cathdb.info/)
+[EC](https://academic.oup.com/nar/article/37/suppl_1/D593/1000297?login=false)|2023.11|2.6M|[√](https://www.enzyme-database.org/)
+[GO](https://www.nature.com/articles/ng0500_25)|2023.11|1.5M|[√](https://geneontology.org/)
+[CAMEO](https://onlinelibrary.wiley.com/doi/full/10.1002/prot.26213)|2021.08|-|[√](https://cameo3d.org/)
+[Flip](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2.abstract)|2022.01|320K|[√](https://benchmark.protein.properties/)
+[PEER](https://proceedings.neurips.cc/paper_files/paper/2022/hash/e467582d42d9c13fa9603df16f31de6d-Abstract-Datasets_and_Benchmarks.html)|2022.11|390K|[√](https://github.com/DeepGraphLearning/PEER_Benchmark)
 
 ## Tools
 
