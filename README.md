@@ -147,19 +147,14 @@ We provide links to commonly used protein tools in the following table for reade
 
 Tool | Link
 ---- | ----
-MMseq2|[√](https://github.com/soedinglab/mmseqs2)
-HHblits&HHfilter|[√](https://github.com/soedinglab/hh-suite)
-Umap&t-SNE|[Umap](https://umap-learn.readthedocs.io/en/latest/)&[t-SNE](https://scikit-learn.org/0.18/preface.html)
-PyMOL|[√](https://www.pymol.org/)
-TM-align|[√](https://zhanggroup.org/TM-align/)
 BLAST|[√](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
 Foldseek|[√](https://search.foldseek.com/search)
-
-
-
-
-
-
+HHblits&HHfilter|[√](https://github.com/soedinglab/hh-suite)
+MMseq2|[√](https://github.com/soedinglab/mmseqs2)
+PyMOL|[√](https://www.pymol.org/)
+TM-align|[√](https://zhanggroup.org/TM-align/)
+t-SNE|[√](https://scikit-learn.org/0.18/preface.html)
+Umap|[√](https://umap-learn.readthedocs.io/en/latest/)
 
 
 
