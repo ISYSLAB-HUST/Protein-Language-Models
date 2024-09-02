@@ -81,28 +81,28 @@ Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 
 Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 ---- | ---- | ---- | ---- | ---- | ---- |
-[ProGen](https://arxiv.org/abs/2004.03497)|2020.03|1.2B|GPT|UniParc,UniProtKB/Swiss-Prot|[√](https://github.com/salesforce/progen)
-[ProtGPT2](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.abstract)|2021.01|738M|GPT|UniRef50|[√](https://github.com/TeletcheaLab/protGPT2)
-[ZymCTRL](https://www.mlsb.io/papers_2022/ZymCTRL_a_conditional_language_model_for_the_controllable_generation_of_artificial_enzymes.pdf)|2022.01|738M|GPT|BRENDA|[√](https://huggingface.co/AI4PD/ZymCTRL)
-[RITA](https://arxiv.org/abs/2205.05789)|2022.05|1.2B|GPT|UniRef10|×
-[IgLM](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v2.abstract)|2022.12|13M|GPT|-|[√](https://github.com/Graylab/IgLM)
-[LM-Design](http://proceedings.mlr.press/v202/zheng23a.html)|2023.02|664M|GPT|-|×
-[ProGen2](https://www.cell.com/cell-systems/abstract/S2405-4712(23)00272-7?s=35)|2023.10|151M-6.4B|GPT|UniRef90,BFD30,PDB|[√](https://github.com/salesforce/progen)
 [PoET](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f4366126eba252699b280e8f93c0ab2f-Abstract-Conference.html)|2023.11|201M|GPT|-|×
+[ProGen2](https://www.cell.com/cell-systems/abstract/S2405-4712(23)00272-7?s=35)|2023.10|151M-6.4B|GPT|UniRef90,BFD30,PDB|[√](https://github.com/salesforce/progen)
+[LM-Design](http://proceedings.mlr.press/v202/zheng23a.html)|2023.02|664M|GPT|-|×
+[IgLM](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v2.abstract)|2022.12|13M|GPT|-|[√](https://github.com/Graylab/IgLM)
+[RITA](https://arxiv.org/abs/2205.05789)|2022.05|1.2B|GPT|UniRef10|×
+[ZymCTRL](https://www.mlsb.io/papers_2022/ZymCTRL_a_conditional_language_model_for_the_controllable_generation_of_artificial_enzymes.pdf)|2022.01|738M|GPT|BRENDA|[√](https://huggingface.co/AI4PD/ZymCTRL)
+[ProtGPT2](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.abstract)|2021.01|738M|GPT|UniRef50|[√](https://github.com/TeletcheaLab/protGPT2)
+[ProGen](https://arxiv.org/abs/2004.03497)|2020.03|1.2B|GPT|UniParc,UniProtKB/Swiss-Prot|[√](https://github.com/salesforce/progen)
 
 #### Encoder-decoder models
 
 Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 ---- | ---- | ---- | ---- | ---- | ---- |
-[Fold2Seq](https://proceedings.mlr.press/v139/cao21a.html)|2021.01|-|Transformer|-|[√](https://github.com/IBM/fold2seq)
-[MSA-to-proteion transformer](https://arxiv.org/abs/2204.01168)|2022.04|-|Transformer|-|×
-[MSA-Transformer](http://proceedings.mlr.press/v139/rao21a.html?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news)|2021.07|100M|Transformer|UniRef50|[√](https://github.com/rmrao/msa-transformer)
+[AlphaFold3](https://www.nature.com/articles/s41586-024-07487-w)|2024.05|-|-|-|×
+[pAbT5](https://arxiv.org/abs/2301.02748)|2023.10|-|T5|-|×
 [ProstT5](https://www.biorxiv.org/content/10.1101/2023.07.23.550085v2.abstract)|2023.07|3B|T5|PDB|[√](https://github.com/mheinzinger/ProstT5)
 [xTrimoPGLM](https://arxiv.org/abs/2401.06199)|2023.07|100B|GLM|UniRef90,ColdFoldDB|×
-[pAbT5](https://arxiv.org/abs/2301.02748)|2023.10|-|T5|-|×
-[AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2)|2021.07|-|Transformer|Uniref30,Uniref90,UniProt,PDB,BFD,MGnify|[√](https://github.com/google-deepmind/alphafold)
-[AlphaFold3](https://www.nature.com/articles/s41586-024-07487-w)|2024.05|-|-|-|×
+[MSA-to-proteion transformer](https://arxiv.org/abs/2204.01168)|2022.04|-|Transformer|-|×
 [Mansoor et al.](https://www.biorxiv.org/content/10.1101/2021.09.01.458592v1.abstract)|2021.09|100M|ESM-1b|-|×
+[AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2)|2021.07|-|Transformer|Uniref30,Uniref90,UniProt,PDB,BFD,MGnify|[√](https://github.com/google-deepmind/alphafold)
+[MSA-Transformer](http://proceedings.mlr.press/v139/rao21a.html?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news)|2021.07|100M|Transformer|UniRef50|[√](https://github.com/rmrao/msa-transformer)
+[Fold2Seq](https://proceedings.mlr.press/v139/cao21a.html)|2021.01|-|Transformer|-|[√](https://github.com/IBM/fold2seq)
 
 ## Datasets
 
@@ -112,34 +112,34 @@ Protein datasets can be classified into two categories depending on whether they
 
 Dataset | Time | Scale | Link
 ---- | ---- | ---- | ----
-[UniProtKB/Swiss-Prot](https://link.springer.com/protocol/10.1007/978-1-4939-3167-5_2)|2023.11|570K|[√](https://www.uniprot.org/uniprotkb?query=*)
-[UniProtKB/TrEMBL](https://academic.oup.com/bioinformatics/article/15/3/219/317279?login=false)|2023.11|251M|[√](https://www.uniprot.org/uniprotkb?query=*)
+[PDB](https://academic.oup.com/nar/article/47/D1/D520/5144142?login=false)|2023.12|214K|[√](https://www.rcsb.org/)
+[UniParc](https://academic.oup.com/nar/article/51/D1/D523/6835362?login=false)|2023.11|632M|[√](https://www.uniprot.org/uniparc?query=*)
 UniRef100[[1](https://academic.oup.com/bioinformatics/article/23/10/1282/197795?login=false),[2](https://academic.oup.com/bioinformatics/article/31/6/926/214968?login=false)]|2023.11|314M|[√](https://www.uniprot.org/uniref?query=*)
 UniRef90[[1](https://academic.oup.com/bioinformatics/article/23/10/1282/197795?login=false),[2](https://academic.oup.com/bioinformatics/article/31/6/926/214968?login=false)]|2023.11|150M|[√](https://www.uniprot.org/uniref?query=*)
 UniRef50[[1](https://academic.oup.com/bioinformatics/article/23/10/1282/197795?login=false),[2](https://academic.oup.com/bioinformatics/article/31/6/926/214968?login=false)]|2023.11|53M|[√](https://www.uniprot.org/uniref?query=*)
-[UniParc](https://academic.oup.com/nar/article/51/D1/D523/6835362?login=false)|2023.11|632M|[√](https://www.uniprot.org/uniparc?query=*)
-[UniClust30](https://academic.oup.com/nar/article/45/D1/D170/2605730?login=false)|2016.11|-|[√](https://uniclust.mmseqs.com/)
+[UniProtKB/Swiss-Prot](https://link.springer.com/protocol/10.1007/978-1-4939-3167-5_2)|2023.11|570K|[√](https://www.uniprot.org/uniprotkb?query=*)
+[UniProtKB/TrEMBL](https://academic.oup.com/bioinformatics/article/15/3/219/317279?login=false)|2023.11|251M|[√](https://www.uniprot.org/uniprotkb?query=*)
 [Pfam](https://academic.oup.com/nar/article/34/suppl_1/D247/1133922?login=false)|2023.09|47M|[√](https://www.ebi.ac.uk/interpro/entry/pfam/)
-BFD[[1](https://www.nature.com/articles/s41586-021-03819-2),[2](https://www.nature.com/articles/s41592-019-0437-4),[3](https://www.nature.com/articles/s41467-018-04964-5)]|2021.07|2.5B|[√](https://bfd.mmseqs.com/)
-[PDB](https://academic.oup.com/nar/article/47/D1/D520/5144142?login=false)|2023.12|214K|[√](https://www.rcsb.org/)
-AlphafoldDB[[1](https://www.nature.com/articles/s41586-021-03819-2),[2](https://academic.oup.com/nar/article/50/D1/D439/6430488?login=false)]|2021.11|200M|[√](https://alphafold.ebi.ac.uk/)
-[BRENDA](https://academic.oup.com/nar/article/30/1/47/1332638?login=false)|2002.01|-|[√](https://www.brenda-enzymes.org/)
 [MGnify](https://academic.oup.com/nar/article/51/D1/D753/6880769?login=false)|2022.12|-|[√](https://www.ebi.ac.uk/metagenomics)
+AlphafoldDB[[1](https://www.nature.com/articles/s41586-021-03819-2),[2](https://academic.oup.com/nar/article/50/D1/D439/6430488?login=false)]|2021.11|200M|[√](https://alphafold.ebi.ac.uk/)
+BFD[[1](https://www.nature.com/articles/s41586-021-03819-2),[2](https://www.nature.com/articles/s41592-019-0437-4),[3](https://www.nature.com/articles/s41467-018-04964-5)]|2021.07|2.5B|[√](https://bfd.mmseqs.com/)
+[UniClust30](https://academic.oup.com/nar/article/45/D1/D170/2605730?login=false)|2016.11|-|[√](https://uniclust.mmseqs.com/)
+[BRENDA](https://academic.oup.com/nar/article/30/1/47/1332638?login=false)|2002.01|-|[√](https://www.brenda-enzymes.org/)
 
 ### Benchmarks
 
 Dataset | Time | Scale | Link
 ---- | ---- | ---- | ----
-[TAPE](https://proceedings.neurips.cc/paper_files/paper/2019/hash/37f65c068b7723cd7809ee2d31d7861c-Abstract.html)|2021.09|120K|[√](https://github.com/songlab-cal/tape)
-[ProteinGym](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10723403/)|2022.12|300K|[√](https://proteingym.org/)
-[CASP](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26237)|2022.01|-|[√](https://predictioncenter.org/)
-[SCOP](https://academic.oup.com/nar/article/28/1/257/2384406?login=false)|2023.01|914K|[√](http://scop.berkeley.edu/)
-[CATH](https://www.cell.com/structure/fulltext/S0969-2126(97)00260-8?cc\u003dy=)|2023.02|151M|[√](http://www.cathdb.info/)
 [EC](https://academic.oup.com/nar/article/37/suppl_1/D593/1000297?login=false)|2023.11|2.6M|[√](https://www.enzyme-database.org/)
 [GO](https://www.nature.com/articles/ng0500_25)|2023.11|1.5M|[√](https://geneontology.org/)
-[CAMEO](https://onlinelibrary.wiley.com/doi/full/10.1002/prot.26213)|2021.08|-|[√](https://cameo3d.org/)
-[Flip](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2.abstract)|2022.01|320K|[√](https://benchmark.protein.properties/)
+[CATH](https://www.cell.com/structure/fulltext/S0969-2126(97)00260-8?cc\u003dy=)|2023.02|151M|[√](http://www.cathdb.info/)
+[SCOP](https://academic.oup.com/nar/article/28/1/257/2384406?login=false)|2023.01|914K|[√](http://scop.berkeley.edu/)
+[ProteinGym](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10723403/)|2022.12|300K|[√](https://proteingym.org/)
 [PEER](https://proceedings.neurips.cc/paper_files/paper/2022/hash/e467582d42d9c13fa9603df16f31de6d-Abstract-Datasets_and_Benchmarks.html)|2022.11|390K|[√](https://github.com/DeepGraphLearning/PEER_Benchmark)
+[CASP](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26237)|2022.01|-|[√](https://predictioncenter.org/)
+[Flip](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2.abstract)|2022.01|320K|[√](https://benchmark.protein.properties/)
+[TAPE](https://proceedings.neurips.cc/paper_files/paper/2019/hash/37f65c068b7723cd7809ee2d31d7861c-Abstract.html)|2021.09|120K|[√](https://github.com/songlab-cal/tape)
+[CAMEO](https://onlinelibrary.wiley.com/doi/full/10.1002/prot.26213)|2021.08|-|[√](https://cameo3d.org/)
 
 ## Tools
 
