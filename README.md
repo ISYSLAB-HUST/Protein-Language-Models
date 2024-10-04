@@ -31,15 +31,16 @@ This is the overview of our article.
 
 ## Models
 
-We categorize protein models into two sections: Non-transformer-based models and Transformer-based models. The Transformer-based models are further divided into three parts: Encoder-only models, Decoder-only models, and Encoder-decoder models. In the following table, we provide related information on each model, including the paper link, release time, parameters, base model, pretraining dataset, and whether the model is open-source, along with the link to the open-source code for users to reference.
+We categorize protein models into two sections: Non-transformer-based models and Transformer-based models. The Transformer-based models are further divided into three parts: Encoder-only models, Decoder-only models, and Encoder-decoder models. In the following table, we provide related information on each model, including the paper link, release time, parameters, base model, pretraining dataset, and whether the model is open-source, along with the link to the open-source code for users to reference(Models are sorted alphabetically by their names).
 
 ### Non-transformer-based models
 
-Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
+Model | Time | #Parameters | Base model | Pretraining Dataset | Code
 ---- | ---- | ---- | ---- | ---- | ---- |
+[ProSE](https://www.sciencedirect.com/science/article/pii/S2405471221002039)|2021.06|24M|LSTM|UniRef90,SCOP|[√](https://github.com/tbepler/prose)
 [ProtVec](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141287)|2015.11|-|Skip-gram|UniProtKB/Swiss-Prot|×
 [ProtVecX](https://www.nature.com/articles/s41598-019-38746-w)|2019.03|-|ProtVec|UniProtKB/Swiss-Prot|×
-[SeqVec](https://link.springer.com/article/10.1186/s12859-019-3220-8)|2019.12|93M|ELMo|UniRef50|×
+[SeqVec](https://link.springer.com/article/10.1186/s12859-019-3220-8)|2019.12|93M|ELMo|UniRef50|[√](https://github.com/mheinzinger/SeqVec)
 [Seq2vec](https://www.sciencedirect.com/science/article/pii/S1567422320300806?via%3Dihub)|2020.09|-|CNN-LSTM|-|×
 [UDSMProt](https://academic.oup.com/bioinformatics/article/36/8/2401/5698270)|2020.01|-|AWD-LSTM|UniProtKB/Swiss-Prot|×
 [UniRep](https://www.nature.com/articles/s41592-019-0598-1)|2019.10|-|mLSTM|-|[√](https://github.com/churchlab/UniRep)
