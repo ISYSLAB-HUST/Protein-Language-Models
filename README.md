@@ -108,14 +108,21 @@ Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 
 Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 ---- | ---- | ---- | ---- | ---- | ---- |
-[AlphaFold3](https://www.nature.com/articles/s41586-024-07487-w)|2024.05|-|-|-|×
-[pAbT5](https://arxiv.org/abs/2301.02748)|2023.10|-|T5|-|×
-[ProstT5](https://www.biorxiv.org/content/10.1101/2023.07.23.550085v2.abstract)|2023.07|3B|T5|PDB|[√](https://github.com/mheinzinger/ProstT5)
-[xTrimoPGLM](https://arxiv.org/abs/2401.06199)|2023.07|100B|GLM|UniRef90,ColdFoldDB|×
-[MSA-to-proteion transformer](https://arxiv.org/abs/2204.01168)|2022.04|-|Transformer|-|×
-[Mansoor et al.](https://www.biorxiv.org/content/10.1101/2021.09.01.458592v1.abstract)|2021.09|100M|ESM-1b|-|×
-[AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2)|2021.07|-|Transformer|Uniref30,Uniref90,UniProt,PDB,BFD,MGnify|[√](https://github.com/google-deepmind/alphafold)
+Ankh|||||
 [Fold2Seq](https://proceedings.mlr.press/v139/cao21a.html)|2021.01|-|Transformer|-|[√](https://github.com/IBM/fold2seq)
+[LM-Design](http://proceedings.mlr.press/v202/zheng23a.html)|2023.02|664M|GPT|-|×
+MIF-ST|||||
+[MSA-to-proteion transformer](https://arxiv.org/abs/2204.01168)|2022.04|-|Transformer|-|×
+MSA-Augmenter|||||
+[pAbT5](https://arxiv.org/abs/2301.02748)|2023.10|-|T5|-|×
+[Prost-T5](https://www.biorxiv.org/content/10.1101/2023.07.23.550085v2.abstract)|2023.07|3B|T5|PDB|[√](https://github.com/mheinzinger/ProstT5)
+[SS-pLM](https://www.biorxiv.org/content/10.1101/2023.08.04.551626v1.abstract)|2023.08|14.8M|Transformer|UniRef50|×
+[xTrimoPGLM](https://arxiv.org/abs/2401.06199)|2023.07|100B|GLM|UniRef90,ColdFoldDB|×
+-|-|-|-|-|-
+[AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2)|2021.07|-|Transformer|Uniref30,Uniref90,UniProt,PDB,BFD,MGnify|[√](https://github.com/google-deepmind/alphafold)
+[AlphaFold3](https://www.nature.com/articles/s41586-024-07487-w)|2024.05|-|-|-|×
+[Mansoor et al.](https://www.biorxiv.org/content/10.1101/2021.09.01.458592v1.abstract)|2021.09|100M|ESM-1b|-|×
+
 
 ## Datasets
 
