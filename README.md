@@ -26,7 +26,7 @@ This is the overview of our article.
 - [Datasets](#datasets)
   - [Pre\-training datasets](#pre-training-datasets)
     - [Sequence datasets](#sequence-datasets)
-    - [Structral datasets](#structral-datasets)
+    - [Structural datasets](#structural-datasets)
   - [Benchmarks](#benchmarks)
 - [Tools](#tools)
 
