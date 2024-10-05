@@ -28,6 +28,9 @@ This is the overview of our article.
     - [Sequence datasets](#sequence-datasets)
     - [Structural datasets](#structural-datasets)
   - [Benchmarks](#benchmarks)
+    - [Structural benchmarks](#structural-benchmarks)
+    - [Functional benchmarks](#functional-benchmarks)
+    - [Other benchmarks](#other-benchmarks) 
 - [Tools](#tools)
 
 
@@ -127,7 +130,7 @@ MSA-Augmenter|||||
 
 ## Datasets
 
-Protein datasets can be classified into two categories depending on whether they include annotations: pre-training datasets and benchmarks. Pre-training datasets are typically used for self-supervised pre-training as they lack labels, whereas benchmarks, which contain labeled data, are used for supervised fine-tuning or model evaluation. We provide the relevant papers and links for the pre-training datasets and benchmarks of the present popular protein language models in the following table(Pre trained datasets and benchmarks are sorted alphabetically by their names).The pre training dataset is divided into sequence dataset and structural dataset, and the benchmark is divided into structural benchmark, functional benchmark, and other benchmarks.
+Protein datasets can be classified into two categories depending on whether they include annotations: pre-training datasets and benchmarks. Pre-training datasets are typically used for self-supervised pre-training as they lack labels, whereas benchmarks, which contain labeled data, are used for supervised fine-tuning or model evaluation. We provide the relevant papers and links for the pre-training datasets and benchmarks of the present popular protein language models in the following table(Pre trained datasets and benchmarks are sorted alphabetically by their names).The pre training datasets are divided into sequence datasets and structural datasets, and the benchmarks are divided into structural benchmarks, functional benchmarks, and other benchmarks.
 
 ### Pre-training datasets
 
@@ -154,18 +157,30 @@ AlphafoldDB[[1](https://www.nature.com/articles/s41586-021-03819-2),[2](https://
 
 ### Benchmarks
 
+#### Structural benchmarks
+Dataset | Time | Scale | Link
+---- | ---- | ---- | ----
+[CAMEO](https://onlinelibrary.wiley.com/doi/full/10.1002/prot.26213)|2021.08|-|[√](https://cameo3d.org/)
+[CASP](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26237)|2022.01|-|[√](https://predictioncenter.org/)
+[CATH](https://www.cell.com/structure/fulltext/S0969-2126(97)00260-8?cc\u003dy=)|2023.02|151M|[√](http://www.cathdb.info/)
+[SCOP](https://academic.oup.com/nar/article/28/1/257/2384406?login=false)|2023.01|914K|[√](http://scop.berkeley.edu/)
+CAFA???|||
+
+#### Functional benchmarks
 Dataset | Time | Scale | Link
 ---- | ---- | ---- | ----
 [EC](https://academic.oup.com/nar/article/37/suppl_1/D593/1000297?login=false)|2023.11|2.6M|[√](https://www.enzyme-database.org/)
 [GO](https://www.nature.com/articles/ng0500_25)|2023.11|1.5M|[√](https://geneontology.org/)
-[CATH](https://www.cell.com/structure/fulltext/S0969-2126(97)00260-8?cc\u003dy=)|2023.02|151M|[√](http://www.cathdb.info/)
-[SCOP](https://academic.oup.com/nar/article/28/1/257/2384406?login=false)|2023.01|914K|[√](http://scop.berkeley.edu/)
+
+#### Other benchmarks
+Dataset | Time | Scale | Link
+---- | ---- | ---- | ----
 [ProteinGym](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10723403/)|2022.12|300K|[√](https://proteingym.org/)
-[PEER](https://proceedings.neurips.cc/paper_files/paper/2022/hash/e467582d42d9c13fa9603df16f31de6d-Abstract-Datasets_and_Benchmarks.html)|2022.11|390K|[√](https://github.com/DeepGraphLearning/PEER_Benchmark)
-[CASP](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26237)|2022.01|-|[√](https://predictioncenter.org/)
-[Flip](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2.abstract)|2022.01|320K|[√](https://benchmark.protein.properties/)
 [TAPE](https://proceedings.neurips.cc/paper_files/paper/2019/hash/37f65c068b7723cd7809ee2d31d7861c-Abstract.html)|2021.09|120K|[√](https://github.com/songlab-cal/tape)
-[CAMEO](https://onlinelibrary.wiley.com/doi/full/10.1002/prot.26213)|2021.08|-|[√](https://cameo3d.org/)
+-|-|-|-
+[Flip](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2.abstract)|2022.01|320K|[√](https://benchmark.protein.properties/)
+[PEER](https://proceedings.neurips.cc/paper_files/paper/2022/hash/e467582d42d9c13fa9603df16f31de6d-Abstract-Datasets_and_Benchmarks.html)|2022.11|390K|[√](https://github.com/DeepGraphLearning/PEER_Benchmark)
+
 
 ## Tools
 
