@@ -25,6 +25,8 @@ This is the overview of our article.
     - [Encoder\-decoder models](#encoder-decoder-models)
 - [Datasets](#datasets)
   - [Pre\-training datasets](#pre-training-datasets)
+    - [Sequence datasets](#sequence-datasets)
+    - [Structral datasets](#structral-datasets)
   - [Benchmarks](#benchmarks)
 - [Tools](#tools)
 
