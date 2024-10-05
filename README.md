@@ -57,7 +57,7 @@ Model | Time | #Parameters | Base model | Pretraining Dataset | Code
 
 #### Encoder-only models
 
-Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
+Model | Time | #Parameters | Base model | Pretraining Dataset | Code
 ---- | ---- | ---- | ---- | ---- | ---- |
 [AminoBert](https://www.nature.com/articles/s41587-022-01432-w)|2022.10|-|BERT|-|×
 [AntiBERTy](https://arxiv.org/abs/2112.07782)|2021.12|26M|BERT|-|[√](https://pypi.org/project/antiberty)
@@ -97,7 +97,7 @@ ESM-All-Atom|||||
 
 #### Decoder-only models
 
-Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
+Model | Time | #Parameters | Base model | Pretraining Dataset | Code
 ---- | ---- | ---- | ---- | ---- | ---- |
 [IgLM](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v2.abstract)|2022.12|13M|GPT|-|[√](https://github.com/Graylab/IgLM)
 [PoET](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f4366126eba252699b280e8f93c0ab2f-Abstract-Conference.html)|2023.11|201M|GPT|-|×
@@ -112,7 +112,7 @@ Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
 
 #### Encoder-decoder models
 
-Model | Time | #Parameters | Base model | Pretraining Dataset |Open-source
+Model | Time | #Parameters | Base model | Pretraining Dataset | Code
 ---- | ---- | ---- | ---- | ---- | ---- |
 Ankh|||||
 [Fold2Seq](https://proceedings.mlr.press/v139/cao21a.html)|2021.01|-|Transformer|-|[√](https://github.com/IBM/fold2seq)
