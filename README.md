@@ -82,7 +82,6 @@ ESM-All-Atom|||||
 [CLEAN](https://www.science.org/doi/10.1126/science.adf2465)|2023.03|-|-|-|[√](https://github.com/tttianhao/CLEAN)
 [ProtBert](https://ieeexplore.ieee.org/abstract/document/9477085)|2022.10|420M|BERT|UniRef100,BFD100|[√](https://huggingface.co/Rostlab/prot_bert)
 [Prot-T5](https://ieeexplore.ieee.org/abstract/document/9477085)|2022.10|3B/11B|T5|UniRef50,BFD|[√](https://huggingface.co/Rostlab)
-[ESM-Fold](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v1)|2022.07|15B|ESM-2|UniRef50|[√](https://github.com/facebookresearch/esm)
 [SignalP 6.0](https://www.nature.com/articles/s41587-021-01156-3)|2022.01|-|BERT|UniRef100|[√](https://github.com/fteufel/signalp-6.0)
 [Bioseq-Bert](https://academic.oup.com/nar/article/49/22/e129/6377401?login=false)|2021.09|-|BERT|-|×
 [BioBert](https://academic.oup.com/bioinformatics/article/36/4/1234/5566506)|2019.09|110M|BERT|-|[√](https://github.com/dmis-lab/biobert)
@@ -126,9 +125,16 @@ MSA-Augmenter|||||
 
 ## Datasets
 
-Protein datasets can be classified into two categories depending on whether they include annotations: pre-training datasets and benchmarks. Pre-training datasets are typically used for self-supervised pre-training as they lack labels, whereas benchmarks, which contain labeled data, are used for supervised fine-tuning or model evaluation. We provide the relevant papers and links for the pre-training datasets and benchmarks of the present popular protein language models in the following table.
+Protein datasets can be classified into two categories depending on whether they include annotations: pre-training datasets and benchmarks. Pre-training datasets are typically used for self-supervised pre-training as they lack labels, whereas benchmarks, which contain labeled data, are used for supervised fine-tuning or model evaluation. We provide the relevant papers and links for the pre-training datasets and benchmarks of the present popular protein language models in the following table(Pre trained datasets and benchmarks are sorted alphabetically by their names).The pre training dataset is divided into sequence dataset and structural dataset, and the benchmark is divided into structural benchmark, functional benchmark, and other benchmarks.
 
 ### Pre-training datasets
+
+#### Sequence datasets
+
+
+
+
+
 
 Dataset | Time | Scale | Link
 ---- | ---- | ---- | ----
