@@ -130,27 +130,25 @@ Protein datasets can be classified into two categories depending on whether they
 ### Pre-training datasets
 
 #### Sequence datasets
-
-
-
-
-
-
 Dataset | Time | Scale | Link
 ---- | ---- | ---- | ----
-[PDB](https://academic.oup.com/nar/article/47/D1/D520/5144142?login=false)|2023.12|214K|[√](https://www.rcsb.org/)
+BFD[[1](https://www.nature.com/articles/s41586-021-03819-2),[2](https://www.nature.com/articles/s41592-019-0437-4),[3](https://www.nature.com/articles/s41467-018-04964-5)]|2021.07|2.5B|[√](https://bfd.mmseqs.com/)
+[BRENDA](https://academic.oup.com/nar/article/30/1/47/1332638?login=false)|2002.01|-|[√](https://www.brenda-enzymes.org/)
+[MGnify](https://academic.oup.com/nar/article/51/D1/D753/6880769?login=false)|2022.12|-|[√](https://www.ebi.ac.uk/metagenomics)
+[Pfam](https://academic.oup.com/nar/article/34/suppl_1/D247/1133922?login=false)|2023.09|47M|[√](https://www.ebi.ac.uk/interpro/entry/pfam/)
+[UniClust30](https://academic.oup.com/nar/article/45/D1/D170/2605730?login=false)|2016.11|-|[√](https://uniclust.mmseqs.com/)
 [UniParc](https://academic.oup.com/nar/article/51/D1/D523/6835362?login=false)|2023.11|632M|[√](https://www.uniprot.org/uniparc?query=*)
-UniRef100[[1](https://academic.oup.com/bioinformatics/article/23/10/1282/197795?login=false),[2](https://academic.oup.com/bioinformatics/article/31/6/926/214968?login=false)]|2023.11|314M|[√](https://www.uniprot.org/uniref?query=*)
-UniRef90[[1](https://academic.oup.com/bioinformatics/article/23/10/1282/197795?login=false),[2](https://academic.oup.com/bioinformatics/article/31/6/926/214968?login=false)]|2023.11|150M|[√](https://www.uniprot.org/uniref?query=*)
-UniRef50[[1](https://academic.oup.com/bioinformatics/article/23/10/1282/197795?login=false),[2](https://academic.oup.com/bioinformatics/article/31/6/926/214968?login=false)]|2023.11|53M|[√](https://www.uniprot.org/uniref?query=*)
 [UniProtKB/Swiss-Prot](https://link.springer.com/protocol/10.1007/978-1-4939-3167-5_2)|2023.11|570K|[√](https://www.uniprot.org/uniprotkb?query=*)
 [UniProtKB/TrEMBL](https://academic.oup.com/bioinformatics/article/15/3/219/317279?login=false)|2023.11|251M|[√](https://www.uniprot.org/uniprotkb?query=*)
-[Pfam](https://academic.oup.com/nar/article/34/suppl_1/D247/1133922?login=false)|2023.09|47M|[√](https://www.ebi.ac.uk/interpro/entry/pfam/)
-[MGnify](https://academic.oup.com/nar/article/51/D1/D753/6880769?login=false)|2022.12|-|[√](https://www.ebi.ac.uk/metagenomics)
+UniRef50[[1](https://academic.oup.com/bioinformatics/article/23/10/1282/197795?login=false),[2](https://academic.oup.com/bioinformatics/article/31/6/926/214968?login=false)]|2023.11|53M|[√](https://www.uniprot.org/uniref?query=*)
+UniRef90[[1](https://academic.oup.com/bioinformatics/article/23/10/1282/197795?login=false),[2](https://academic.oup.com/bioinformatics/article/31/6/926/214968?login=false)]|2023.11|150M|[√](https://www.uniprot.org/uniref?query=*)
+UniRef100[[1](https://academic.oup.com/bioinformatics/article/23/10/1282/197795?login=false),[2](https://academic.oup.com/bioinformatics/article/31/6/926/214968?login=false)]|2023.11|314M|[√](https://www.uniprot.org/uniref?query=*)
+
+#### Structural datasets
+Dataset | Time | Scale | Link
+---- | ---- | ---- | ----
 AlphafoldDB[[1](https://www.nature.com/articles/s41586-021-03819-2),[2](https://academic.oup.com/nar/article/50/D1/D439/6430488?login=false)]|2021.11|200M|[√](https://alphafold.ebi.ac.uk/)
-BFD[[1](https://www.nature.com/articles/s41586-021-03819-2),[2](https://www.nature.com/articles/s41592-019-0437-4),[3](https://www.nature.com/articles/s41467-018-04964-5)]|2021.07|2.5B|[√](https://bfd.mmseqs.com/)
-[UniClust30](https://academic.oup.com/nar/article/45/D1/D170/2605730?login=false)|2016.11|-|[√](https://uniclust.mmseqs.com/)
-[BRENDA](https://academic.oup.com/nar/article/30/1/47/1332638?login=false)|2002.01|-|[√](https://www.brenda-enzymes.org/)
+[PDB](https://academic.oup.com/nar/article/47/D1/D520/5144142?login=false)|2023.12|214K|[√](https://www.rcsb.org/)
 
 ### Benchmarks
 
