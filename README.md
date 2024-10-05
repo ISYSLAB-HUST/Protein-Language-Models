@@ -32,7 +32,9 @@ This is the overview of our article.
     - [Functional benchmarks](#functional-benchmarks)
     - [Other benchmarks](#other-benchmarks) 
 - [Tools](#tools)
-
+  - [Sequence tools](#sequence-tools)
+  - [Structural tools](#structural-tools)
+  - [Other tools](#other-tools) 
 
 ## Models
 
@@ -184,16 +186,25 @@ Dataset | Time | Scale | Link
 
 ## Tools
 
-We provide links to commonly used protein tools in the following table for readers to use.
+We provide links to commonly used protein tools in the following table for readers to use(Tools are sorted alphabetically by their names).The tools are divided into sequence tools, structural tools, and other tools
 
+### Sequence tools
 Tool | Link
 ---- | ----
 BLAST|[√](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
-Foldseek|[√](https://search.foldseek.com/search)
 HHblits&HHfilter|[√](https://github.com/soedinglab/hh-suite)
 MMseq2|[√](https://github.com/soedinglab/mmseqs2)
+
+### Structural tools
+Tool | Link
+---- | ----
+Foldseek|[√](https://search.foldseek.com/search)
 PyMOL|[√](https://www.pymol.org/)
 TM-align|[√](https://zhanggroup.org/TM-align/)
+
+### Other tools
+Tool | Link
+---- | ----
 t-SNE|[√](https://scikit-learn.org/0.18/preface.html)
 Umap|[√](https://umap-learn.readthedocs.io/en/latest/)
 
