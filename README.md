@@ -61,9 +61,8 @@ Model | Time | #Parameters | Base model | Pretraining Dataset | Code
 ---- | ---- | ---- | ---- | ---- | ---- |
 [AminoBert](https://www.nature.com/articles/s41587-022-01432-w)|2022.10|-|BERT|-|×
 [AntiBERTy](https://arxiv.org/abs/2112.07782)|2021.12|26M|BERT|-|[√](https://pypi.org/project/antiberty)
-Cot|||||
 [DistilProtBert](https://academic.oup.com/bioinformatics/article/38/Supplement_2/ii95/6701995)|2022.09|230M|ProtBert|UniRef50|[√](https://github.com/yarongef/DistilProtBert)
-ESM-All-Atom|||||
+[ESM All-Atom](https://arxiv.org/html/2403.12995v3)|2024.05|35M|ESM-2|AlphaFoldDB|[√](https://github.com/zhengkangjie/ESM-AA)
 [ESM-Fold](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v1)|2022.07|15B|ESM-2|UniRef50|[√](https://github.com/facebookresearch/esm)
 [ESM-GearNet](https://arxiv.org/abs/2303.06275)|2023.10|-|ESM-2|-|[√](https://github.com/DeepGraphLearning/ESM-GearNet)
 [ESM-MSA-1b](http://proceedings.mlr.press/v139/rao21a.html?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news)|2021.02|100M|ESM-1b|UniRef50|[√](https://github.com/facebookresearch/esm)
@@ -72,12 +71,12 @@ ESM-All-Atom|||||
 [ESM-2](https://www.science.org/doi/abs/10.1126/science.ade2574)|2023.03|8M-15B|RoBERTa|UniRef50|[√](https://github.com/facebookresearch/esm)
 [ESM-3](https://www.biorxiv.org/content/10.1101/2024.07.01.600583v1)|2024.07|98B|-|-|[√](https://github.com/evolutionaryscale/esm)
 [LM-GVP](https://www.nature.com/articles/s41598-022-10775-y)|2022.04|-|Trans.enc.|Uniref50|[√](https://github.com/aws-samples/lm-gvp)
-[MSA-Transformer](http://proceedings.mlr.press/v139/rao21a.html?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news)|2021.07|100M|Transformer|UniRef50|[√](https://github.com/rmrao/msa-transformer)
 [OntoProtein](https://arxiv.org/abs/2201.11147)|2022.06|-|BERT|ProteinKG25|[√](https://github.com/zjunlp/OntoProtein)
 [PeTriBERT](https://www.biorxiv.org/content/10.1101/2022.08.10.503344v1)|2022.08|40M|BERT|AlphaFoldDB|×
 [PRoBERTa](https://doi.org/10.1145/3388440.3412467)|2020.09|44M|RoBERTa|UniProtKB/Swiss-Prot|[√](https://github.com/annambiar/PRoBERTa)|
-[PrompProtein](https://openreview.net/forum?id=XGagtiJ8XC)|2023.02|650M|RoBERTa|UniRef50,PDB|[√](https://github.com/HICAI-ZJU/PromptProtein)
+[PromptProtein](https://openreview.net/forum?id=XGagtiJ8XC)|2023.02|650M|RoBERTa|UniRef50,PDB|[√](https://github.com/HICAI-ZJU/PromptProtein)
 [ProteinBERT](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274?login=false)|2022.03|16M|BERT|UniRef90|[√](https://github.com/nadavbra/protein_bert)
+[ProteinLM](https://arxiv.org/abs/2108.07435)|2021.12|200M,3B|BERT|PFAM|[√](https://github.com/THUDM/ProteinLM)
 [ProtFlash](https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(23)00408-3)|2023.10|79M/174M|Trans.enc.|UniRef50|[√](https://github.com/ISYSLAB-HUST/ProtFlash)
 [ProtTrans](https://ieeexplore.ieee.org/abstract/document/9477085)|2022.10|-|BERT,Albert,Electra|UniRef,BFD|[√](https://github.com/agemagician/ProtTrans)
 [PMLM](https://arxiv.org/abs/2110.15527)|2021.10|87M-731M|-|UniRef50,Pfam|×
@@ -120,8 +119,10 @@ Ankh|||||
 MIF-ST|||||
 [MSA-to-proteion transformer](https://arxiv.org/abs/2204.01168)|2022.04|-|Transformer|-|×
 MSA-Augmenter|||||
+[MSA-Transformer](http://proceedings.mlr.press/v139/rao21a.html?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news)|2021.07|100M|Transformer|UniRef50|[√](https://github.com/rmrao/msa-transformer)
 [pAbT5](https://arxiv.org/abs/2301.02748)|2023.10|-|T5|-|×
 [Prost-T5](https://www.biorxiv.org/content/10.1101/2023.07.23.550085v2.abstract)|2023.07|3B|T5|PDB|[√](https://github.com/mheinzinger/ProstT5)
+[ProSST](https://www.biorxiv.org/content/10.1101/2024.04.15.589672v2)|2024.05|-|Transformer|AlphaFoldDB,CATH|[√](https://github.com/ai4protein/ProSST)
 [SS-pLM](https://www.biorxiv.org/content/10.1101/2023.08.04.551626v1.abstract)|2023.08|14.8M|Transformer|UniRef50|×
 [xTrimoPGLM](https://arxiv.org/abs/2401.06199)|2023.07|100B|GLM|UniRef90,ColdFoldDB|×
 -|-|-|-|-|-
