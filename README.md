@@ -169,7 +169,7 @@ Dataset | Time | Scale | Link
 ---- | ---- | ---- | ----
 [CAFA](https://www.biorxiv.org/content/10.1101/653105v1)|2019.05|-|[√](https://biofunctionprediction.org/)
 [EC](https://academic.oup.com/nar/article/37/suppl_1/D593/1000297?login=false)|2023.11|2.6M|[√](https://www.enzyme-database.org/)
-[Flip](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2.abstract)|2022.01|320K|[√](https://benchmark.protein.properties/)
+[FLIP](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2.abstract)|2022.01|320K|[√](https://benchmark.protein.properties/)
 [GO](https://www.nature.com/articles/ng0500_25)|2023.11|1.5M|[√](https://geneontology.org/)
 
 #### Other benchmarks
