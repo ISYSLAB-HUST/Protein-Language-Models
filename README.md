@@ -42,7 +42,7 @@ We categorize protein models into two sections: Non-transformer-based models and
 
 ### Non-transformer-based models
 
-Model | Time | #Parameters | Base model | Pretraining Dataset | Code
+Model | Time | Params | Base model | Pretraining Dataset | Code
 ---- | ---- | ---- | ---- | ---- | ---- |
 [CARP](https://www.biorxiv.org/content/10.1101/2022.05.19.492714v5)|2024.02|600K-640M|-|UniRef50|[√](https://github.com/microsoft/protein-sequence-models)
 [MIF-ST](https://www.biorxiv.org/content/10.1101/2022.05.25.493516v3)|2023.03|3.4M|-|CATH|[√](https://github.com/microsoft/protein-sequence-models)
@@ -59,7 +59,7 @@ Model | Time | #Parameters | Base model | Pretraining Dataset | Code
 
 #### Encoder-only models
 
-Model | Time | #Parameters | Base model | Pretraining Dataset | Code
+Model | Time | Params | Base model | Pretraining Dataset | Code
 ---- | ---- | ---- | ---- | ---- | ---- |
 [AbLang](https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac046/6609807)|2022.06|-|-|-|[√](https://github.com/oxpig/AbLang)
 [AminoBert](https://www.nature.com/articles/s41587-022-01432-w)|2022.10|-|BERT|-|×
@@ -94,7 +94,7 @@ Model | Time | #Parameters | Base model | Pretraining Dataset | Code
 
 #### Decoder-only models
 
-Model | Time | #Parameters | Base model | Pretraining Dataset | Code
+Model | Time | Params | Base model | Pretraining Dataset | Code
 ---- | ---- | ---- | ---- | ---- | ---- |
 [DARK](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1)|2022.01|128M|-|-|×
 [IgLM](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v2.abstract)|2022.12|13M|GPT|-|[√](https://github.com/Graylab/IgLM)
@@ -108,7 +108,7 @@ Model | Time | #Parameters | Base model | Pretraining Dataset | Code
 
 #### Encoder-decoder models
 
-Model | Time | #Parameters | Base model | Pretraining Dataset | Code
+Model | Time | Params | Base model | Pretraining Dataset | Code
 ---- | ---- | ---- | ---- | ---- | ---- |
 [AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2)|2021.07|-|Transformer|UniRef30,UniRef90,UniProt,PDB,BFD,MGnify|[√](https://github.com/google-deepmind/alphafold)
 [AlphaFold3](https://www.nature.com/articles/s41586-024-07487-w)|2024.05|-|-|-|×
