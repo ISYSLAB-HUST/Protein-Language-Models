@@ -74,7 +74,7 @@ Model | Time | Params | Base model | Pretraining Dataset | Code
 [ESM-1v](https://proceedings.neurips.cc/paper/2021/hash/f51338d736f95dd42427296047067694-Abstract.html)|2021.02|650M|ESM-1b|UniRef90|[√](https://github.com/facebookresearch/esm)
 [ESM-2](https://www.science.org/doi/abs/10.1126/science.ade2574)|2023.03|8M-15B|RoBERTa|UniRef50|[√](https://github.com/facebookresearch/esm)
 [ESM-3](https://www.biorxiv.org/content/10.1101/2024.07.01.600583v1)|2024.07|98B|-|-|[√](https://github.com/evolutionaryscale/esm)
-[LM-GVP](https://www.nature.com/articles/s41598-022-10775-y)|2022.04|-|Trans.enc.|UniRef50|[√](https://github.com/aws-samples/lm-gvp)
+[LM-GVP](https://www.nature.com/articles/s41598-022-10775-y)|2022.04|-|Transformer Encoder|UniRef50|[√](https://github.com/aws-samples/lm-gvp)
 [OntoProtein](https://arxiv.org/abs/2201.11147)|2022.06|-|BERT|ProteinKG25|[√](https://github.com/zjunlp/OntoProtein)
 [PeTriBERT](https://www.biorxiv.org/content/10.1101/2022.08.10.503344v1)|2022.08|40M|BERT|AlphaFoldDB|×
 [PRoBERTa](https://doi.org/10.1145/3388440.3412467)|2020.09|44M|RoBERTa|UniProtKB/Swiss-Prot|[√](https://github.com/annambiar/PRoBERTa)|
@@ -82,9 +82,9 @@ Model | Time | Params | Base model | Pretraining Dataset | Code
 [ProtBert](https://ieeexplore.ieee.org/abstract/document/9477085)|2022.10|420M|BERT|UniRef100,BFD100|[√](https://huggingface.co/Rostlab/prot_bert)
 [ProteinBERT](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274?login=false)|2022.03|16M|BERT|UniRef90|[√](https://github.com/nadavbra/protein_bert)
 [ProteinLM](https://arxiv.org/abs/2108.07435)|2021.12|200M,3B|BERT|Pfam|[√](https://github.com/THUDM/ProteinLM)
-[ProteinNPT](https://proceedings.neurips.cc/paper_files/paper/2023/hash/6a4d5d85f7a52f062d23d98d544a5578-Abstract-Conference.html)|2023.12|-|Trans.enc.|-|×
-[ProtFlash](https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(23)00408-3)|2023.10|79M/174M|Trans.enc.|UniRef50|[√](https://github.com/ISYSLAB-HUST/ProtFlash)
-[ProtTrans](https://ieeexplore.ieee.org/abstract/document/9477085)|2022.10|-|BERT,Albert,Electra|UniRef,BFD|[√](https://github.com/agemagician/ProtTrans)
+[ProteinNPT](https://proceedings.neurips.cc/paper_files/paper/2023/hash/6a4d5d85f7a52f062d23d98d544a5578-Abstract-Conference.html)|2023.12|-|Transformer Encoder|-|×
+[ProtFlash](https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(23)00408-3)|2023.10|79M/174M|Transformer Encoder|UniRef50|[√](https://github.com/ISYSLAB-HUST/ProtFlash)
+[ProtTrans](https://ieeexplore.ieee.org/abstract/document/9477085)|2022.10|-|BERT|UniRef,BFD|[√](https://github.com/agemagician/ProtTrans)
 [PMLM](https://arxiv.org/abs/2110.15527)|2021.10|87M-731M|-|UniRef50,Pfam|×
 [RGN2](https://www.nature.com/articles/s41587-022-01432-w)|2022.10|-|AmoniBERT|-|[√](https://colab.research.google.com/github/aqlaboratory/rgn2/blob/master/rgn2_prediction.ipynb)
 [SaProt](https://www.biorxiv.org/content/10.1101/2023.10.01.560349v5.abstract)|2023.10|650M|BERT|-|[√](https://github.com/westlake-repl/SaProt)
