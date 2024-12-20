@@ -106,8 +106,6 @@ Model | Time | Params | Base model | Pretraining Dataset | Code
 
 Model | Time | Params | Base model | Pretraining Dataset | Code
 ---- | ---- | ---- | ---- | ---- | ---- |
-[AlphaFold2](https://www.nature.com/articles/s41586-021-03819-2)|2021.07|-|Transformer|UniRef30,UniRef90,UniProt,PDB,BFD,MGnify|[√](https://github.com/google-deepmind/alphafold)
-[AlphaFold3](https://www.nature.com/articles/s41586-024-07487-w)|2024.05|-|-|-|×
 [Ankh](https://arxiv.org/abs/2301.06568)|2023.01|450M,1.15B|Transformer|-|[√](https://github.com/agemagician/Ankh)
 [Fold2Seq](https://proceedings.mlr.press/v139/cao21a.html)|2021.01|-|Transformer|-|[√](https://github.com/IBM/fold2seq)
 [LM-Design](http://proceedings.mlr.press/v202/zheng23a.html)|2023.02|664M|GPT|-|×
