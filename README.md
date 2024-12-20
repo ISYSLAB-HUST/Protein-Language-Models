@@ -153,15 +153,15 @@ AlphafoldDB[[1](https://www.nature.com/articles/s41586-021-03819-2),[2](https://
 #### Structural benchmarks
 Dataset | Time | Scale | Link
 ---- | ---- | ---- | ----
-[CAMEO](https://onlinelibrary.wiley.com/doi/full/10.1002/prot.26213)|2021.08|-|[√](https://cameo3d.org/)
-[CASP](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26237)|2022.01|-|[√](https://predictioncenter.org/)
+[CAMEO](https://onlinelibrary.wiley.com/doi/full/10.1002/prot.26213)|-|-|[√](https://cameo3d.org/)
+[CASP](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.26237)|-|-|[√](https://predictioncenter.org/)
 [CATH](https://www.cell.com/structure/fulltext/S0969-2126(97)00260-8?cc\u003dy=)|2023.02|151M|[√](http://www.cathdb.info/)
 [SCOP](https://academic.oup.com/nar/article/28/1/257/2384406?login=false)|2023.01|914K|[√](http://scop.berkeley.edu/)
 
 #### Functional benchmarks
 Dataset | Time | Scale | Link
 ---- | ---- | ---- | ----
-[CAFA](https://www.biorxiv.org/content/10.1101/653105v1)|2019.05|-|[√](https://biofunctionprediction.org/)
+[CAFA](https://www.biorxiv.org/content/10.1101/653105v1)|-|-|[√](https://biofunctionprediction.org/)
 [EC](https://academic.oup.com/nar/article/37/suppl_1/D593/1000297?login=false)|2023.11|2.6M|[√](https://www.enzyme-database.org/)
 [FLIP](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2.abstract)|2022.01|320K|[√](https://benchmark.protein.properties/)
 [GO](https://www.nature.com/articles/ng0500_25)|2023.11|1.5M|[√](https://geneontology.org/)
