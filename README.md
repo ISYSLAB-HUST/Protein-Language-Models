@@ -113,7 +113,7 @@ Model         | Time    | Params       | Pretraining Dataset           | Code
 [Ankh](https://arxiv.org/abs/2301.06568)          | 2023.01 | 450M/1.15B   | UniRef50                      | [Link](https://github.com/agemagician/Ankh)
 [IgT5](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012646)          | 2024.12 | 3B           | OAS                           | ×
 [LM-Design](http://proceedings.mlr.press/v202/zheng23a.html)     | 2023.02 | 664M         | -                             | ×
-[MSA-Augmenter]https://arxiv.org/abs/2306.01824?context=cs.LG() | 2023.06 | 260M         | UniRef50                      | [Link](https://github.com/lezhang7/MSA-Augmentor)
+[MSA-Augmenter](https://arxiv.org/abs/2306.01824?context=cs.LG) | 2023.06 | 260M         | UniRef50                      | [Link](https://github.com/lezhang7/MSA-Augmentor)
 [ProSST](https://www.biorxiv.org/content/10.1101/2024.04.15.589672v2)        | 2024.05 | 110M         | AlphaFoldDB, CATH             | [Link](https://github.com/ai4protein/ProSST)
 [ProstT5](https://www.biorxiv.org/content/10.1101/2023.07.23.550085v2.abstract)       | 2023.07 | 3B           | AlphaFoldDB, PDB              | [Link](https://github.com/mheinzinger/ProstT5)
 [ProtT5](https://ieeexplore.ieee.org/abstract/document/9477085)        | 2022.06 | 3B/11B       | UniRef50, BFD                 | [Link](https://huggingface.co/Rostlab/prot_t5_xl_uniref50)
