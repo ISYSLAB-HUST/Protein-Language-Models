@@ -51,7 +51,7 @@ Model | Time | Params | Base model | Pretraining Dataset | Code
 [SeqVec](https://link.springer.com/article/10.1186/s12859-019-3220-8)|2019.12|-|ELMo|UniRef50|[√](https://github.com/mheinzinger/SeqVec)
 [Seq2vec](https://www.sciencedirect.com/science/article/pii/S1567422320300806?via%3Dihub)|2020.09|-|CNN-LSTM|-|×
 [UDSMProt](https://academic.oup.com/bioinformatics/article/36/8/2401/5698270)|2020.01|-|AWD-LSTM|UniProtKB/Swiss-Prot|×
-[UniRep](https://www.nature.com/articles/s41592-019-0598-1)|2019.10|-|mLSTM|-|[√](https://github.com/churchlab/UniRep)
+[UniRep](https://www.nature.com/articles/s41592-019-0598-1)|2019.10|-|mLSTM|UniRef50|[√](https://github.com/churchlab/UniRep)
 
 
 ### Transformer-based models
@@ -88,34 +88,38 @@ Model | Time | Params | Base model | Pretraining Dataset | Code
 
 Model           | Time    | Params        | Pretraining Dataset         | Code
 ----------------|---------|---------------|-----------------------------|-------------------------------
-AbLang          | 2022.06 | -             | OAS                         | [Link](https://github.com/oxpig/AbLang)
-AbLang2         | 2024.02 | -             | OAS                         | [Link](https://github.com/oxpig/AbLang2.git)
-AMPLIFY         | 2024.09 | 120M/350M     | UniRef50, UniRef100, OAS, SCOP | [Link](https://github.com/chandar-lab/AMPLIFY)
-AntiBERTa       | 2022.07 | 86M           | OAS                         | [Link](https://github.com/alchemab/antiberta)
-AntiBERTy       | 2021.12 | 26M           | OAS                         | [Link](https://pypi.org/project/antiberty/)
-BALM            | 2024.05 | -             | OAS                         | [Link](https://github.com/BEAM-Labs/BALM)
-DistilProtBert  | 2022.09 | 230M          | UniRef50                    | [Link](https://github.com/yarongef/DistilProtBert)
-ESM-1b          | 2020.02 | 650M          | UniRef50                    | [Link](https://github.com/facebookresearch/esm)
-ESM-1v          | 2021.02 | 650M          | UniRef90                    | [Link](https://github.com/facebookresearch/esm)
-ESM-2           | 2023.03 | 8M-15B        | UniRef50                    | [Link](https://github.com/facebookresearch/esm)
-ESM-3           | 2024.07 | 98B           | UniRef, MGnify, AlphaFoldDB, ESMAtlas | [Link](https://github.com/evolutionaryscale/esm)
-ESM All-Atom    | 2024.05 | 35M           | AlphaFoldDB                 | [Link](https://github.com/zhengkangjie/ESM-AA)
+AbLang          | 2022.06 | -             | OAS                         | [√](https://github.com/oxpig/AbLang)
+AbLang2         | 2024.02 | -             | OAS                         | [√](https://github.com/oxpig/AbLang2.git)
+AMPLIFY         | 2024.09 | 120M/350M     | UniRef50, UniRef100, OAS, SCOP | [√](https://github.com/chandar-lab/AMPLIFY)
+AminoBert       | 2022.10 | -             | UniRef90, PDB, MGnify       | ×
+AntiBERTa       | 2022.07 | 86M           | OAS                         | [√](https://github.com/alchemab/antiberta)
+AntiBERTy       | 2021.12 | 26M           | OAS                         | [√](https://pypi.org/project/antiberty/)
+BALM            | 2024.05 | -             | OAS                         | [√](https://github.com/BEAM-Labs/BALM)
+DistilProtBert  | 2022.09 | 230M          | UniRef50                    | [√](https://github.com/yarongef/DistilProtBert)
+ESM-1b          | 2020.02 | 650M          | UniRef50                    | [√](https://github.com/facebookresearch/esm)
+ESM-1v          | 2021.02 | 650M          | UniRef90                    | [√](https://github.com/facebookresearch/esm)
+ESM-2           | 2023.03 | 8M-15B        | UniRef50                    | [√](https://github.com/facebookresearch/esm)
+ESM-3           | 2024.07 | 98B           | UniRef, MGnify, AlphaFoldDB, ESMAtlas | [√](https://github.com/evolutionaryscale/esm)
+ESM All-Atom    | 2024.05 | 35M           | AlphaFoldDB                 | [√](https://github.com/zhengkangjie/ESM-AA)
 ESM-C           | 2024.12 | 300M, 600M, 6B | UniRef, MGnify, JGI         | ×
-ESM-GearNet     | 2023.10 | -             | AlphaFoldDB                 | [Link](https://github.com/DeepGraphLearning/ESM-GearNet)
-ESM-MSA-1b      | 2021.02 | 100M          | UniRef50                    | [Link](https://github.com/facebookresearch/esm)
+ESM-GearNet     | 2023.10 | -             | AlphaFoldDB                 | [√](https://github.com/DeepGraphLearning/ESM-GearNet)
+ESM-MSA-1b      | 2021.02 | 100M          | UniRef50                    | [√](https://github.com/facebookresearch/esm)
 IgBert          | 2024.12 | 420M          | OAS                         | ×
-LM-GVP          | 2022.04 | -             | -                           | [Link](https://github.com/aws-samples/lm-gvp)
-OntoProtein     | 2022.06 | -             | ProteinKG25                 | [Link](https://github.com/zjunlp/OntoProtein)
+LM-GVP          | 2022.04 | -             | -                           | [√](https://github.com/aws-samples/lm-gvp)
+OntoProtein     | 2022.06 | -             | ProteinKG25                 | [√](https://github.com/zjunlp/OntoProtein)
 PeTriBERT       | 2022.08 | 40M           | AlphaFoldDB                 | ×
 PMLM            | 2021.10 | 87M-731M      | UniRef50, Pfam              | ×
-PRoBERTa        | 2020.09 | 44M           | UniProtKB/Swiss-Prot        | [Link](https://github.com/annambiar/PRoBERTa)
-ProteinBERT     | 2022.03 | 16M           | UniRef90                    | [Link](https://github.com/nadavbra/protein_bert)
-ProteinLM       | 2021.12 | 200M/3B       | Pfam                        | [Link](https://github.com/THUDM/ProteinLM)
-ProtFlash       | 2023.10 | 79M/174M      | UniRef50                    | [Link](https://github.com/ISYSLAB-HUST/ProtFlash)
-ProtTrans       | 2021.07 | -             | UniRef, BFD                 | [Link](https://github.com/agemagician/ProtTrans)
-PromptProtein   | 2023.02 | 650M          | UniRef50, PDB               | [Link](https://github.com/HICAI-ZJU/PromptProtein)
-SaProt          | 2023.10 | 650M          | AlphaFoldDB, PDB            | [Link](https://github.com/westlake-repl/SaProt)
-TCR-BERT        | 2021.11 | 100M          | PIRD, VDJdb, TCRdb, murine LCMV GP33 | [Link](https://github.com/wukevin/tcr-bert)
+PRoBERTa        | 2020.09 | 44M           | UniProtKB/Swiss-Prot        | [√](https://github.com/annambiar/PRoBERTa)
+ProteinBERT     | 2022.03 | 16M           | UniRef90                    | [√](https://github.com/nadavbra/protein_bert)
+ProteinLM       | 2021.12 | 200M/3B       | Pfam                        | [√](https://github.com/THUDM/ProteinLM)
+ProtFlash       | 2023.10 | 79M/174M      | UniRef50                    | [√](https://github.com/ISYSLAB-HUST/ProtFlash)
+ProtTrans       | 2021.07 | -             | UniRef, BFD                 | [√](https://github.com/agemagician/ProtTrans)
+PromptProtein   | 2023.02 | 650M          | UniRef50, PDB               | [√](https://github.com/HICAI-ZJU/PromptProtein)
+SaProt          | 2023.10 | 650M          | AlphaFoldDB, PDB            | [√](https://github.com/westlake-repl/SaProt)
+TCR-BERT        | 2021.11 | 100M          | PIRD, VDJdb, TCRdb, murine LCMV GP33 | [√](https://github.com/wukevin/tcr-bert)
+
+
+
 
 #### Decoder-only models
 
