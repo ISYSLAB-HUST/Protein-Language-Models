@@ -82,28 +82,16 @@ Model           | Time    | Params        | Pretraining Dataset         | Code
 [PeTriBERT](https://www.biorxiv.org/content/10.1101/2022.08.10.503344v1)       | 2022.08 | 40M           | AlphaFoldDB                 | ×
 [PMLM](https://arxiv.org/abs/2110.15527)            | 2021.10 | 87M-731M      | UniRef50, Pfam              | ×
 [PRoBERTa](https://doi.org/10.1145/3388440.3412467)        | 2020.09 | 44M           | UniProtKB/Swiss-Prot        | [√](https://github.com/annambiar/PRoBERTa)
+[PromptProtein](https://openreview.net/forum?id=XGagtiJ8XC)   | 2023.02 | 650M          | UniRef50, PDB               | [√](https://github.com/HICAI-ZJU/PromptProtein)
 [ProteinBERT](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274)     | 2022.03 | 16M           | UniRef90                    | [√](https://github.com/nadavbra/protein_bert)
 [ProteinLM](https://arxiv.org/abs/2108.07435)       | 2021.12 | 200M/3B       | Pfam                        | [√](https://github.com/THUDM/ProteinLM)
 [ProtFlash](https://www.cell.com/cell-reports-physical-science/fulltext/S2666-3864(23)00408-3)       | 2023.10 | 79M/174M      | UniRef50                    | [√](https://github.com/ISYSLAB-HUST/ProtFlash)
 [ProtTrans](https://ieeexplore.ieee.org/abstract/document/9477085)       | 2021.07 | -             | UniRef, BFD                 | [√](https://github.com/agemagician/ProtTrans)
-[PromptProtein](https://openreview.net/forum?id=XGagtiJ8XC)   | 2023.02 | 650M          | UniRef50, PDB               | [√](https://github.com/HICAI-ZJU/PromptProtein)
 [SaProt](https://www.biorxiv.org/content/10.1101/2023.10.01.560349v5.abstract)          | 2023.10 | 650M          | AlphaFoldDB, PDB            | [√](https://github.com/westlake-repl/SaProt)
 [TCR-BERT](https://www.biorxiv.org/content/10.1101/2021.11.18.469186v1)        | 2021.11 | 100M          | PIRD, VDJdb, TCRdb, murine LCMV GP33 | [√](https://github.com/wukevin/tcr-bert)
 
 
 #### Decoder-only models
-
-Model | Time | Params | Base model | Pretraining Dataset | Code
----- | ---- | ---- | ---- | ---- | ---- |
-[DARK](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1)|2022.01|128M|-|-|×
-[IgLM](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v2.abstract)|2022.12|13M|GPT|-|[√](https://github.com/Graylab/IgLM)
-[PoET](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f4366126eba252699b280e8f93c0ab2f-Abstract-Conference.html)|2023.11|201M|GPT|-|×
-[ProGen](https://arxiv.org/abs/2004.03497)|2020.03|1.2B|GPT|UniParc,UniProtKB/Swiss-Prot|[√](https://github.com/salesforce/progen)
-[ProGen2](https://www.cell.com/cell-systems/abstract/S2405-4712(23)00272-7?s=35)|2023.10|151M-6.4B|GPT|UniRef90,BFD30,PDB|[√](https://github.com/salesforce/progen)
-[ProLLaMA](https://arxiv.org/html/2402.16445v1)|2024.02|-|LLaMA2|UniRef50|[√](https://github.com/PKU-YuanGroup/ProLLaMA)
-[ProtGPT2](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.abstract)|2021.01|738M|GPT|UniRef50|[√](https://github.com/TeletcheaLab/protGPT2)
-[RITA](https://arxiv.org/abs/2205.05789)|2022.05|1.2B|GPT|UniRef100|×
-[ZymCTRL](https://www.mlsb.io/papers_2022/ZymCTRL_a_conditional_language_model_for_the_controllable_generation_of_artificial_enzymes.pdf)|2022.01|738M|GPT|BRENDA|[√](https://huggingface.co/AI4PD/ZymCTRL)
 
 Model         | Time    | Params        | Pretraining Dataset          | Code
 --------------|---------|---------------|------------------------------|-----------------------------------------
