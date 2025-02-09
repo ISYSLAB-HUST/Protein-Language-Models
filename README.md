@@ -45,9 +45,9 @@ Model | Time | Params | Base model | Pretraining Dataset | Code
 ---- | ---- | ---- | ---- | ---- | ---- |
 [CARP](https://www.biorxiv.org/content/10.1101/2022.05.19.492714v5)|2024.02|600K-640M|CNN|UniRef50|[√](https://github.com/microsoft/protein-sequence-models)
 [MIF-ST](https://www.biorxiv.org/content/10.1101/2022.05.25.493516v3)|2023.03|3.4M|GNN|CATH|[√](https://github.com/microsoft/protein-sequence-models)
-[ProSE](https://www.sciencedirect.com/science/article/pii/S2405471221002039)|2021.06|-|LSTM|UniRef90,SCOP|[√](https://github.com/tbepler/prose)
+[ProSE](https://www.sciencedirect.com/science/article/pii/S2405471221002039)|2021.06|-|LSTM|UniRef90, SCOP|[√](https://github.com/tbepler/prose)
 [ProtVec](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141287)|2015.11|-|Skip-gram|UniProtKB/Swiss-Prot|×
-[ProtVecX](https://www.nature.com/articles/s41598-019-38746-w)|2019.03|-|ProtVec|UniRef50,UniProtKB/Swiss-Prot|×
+[ProtVecX](https://www.nature.com/articles/s41598-019-38746-w)|2019.03|-|ProtVec|UniRef50, UniProtKB/Swiss-Prot|×
 [SeqVec](https://link.springer.com/article/10.1186/s12859-019-3220-8)|2019.12|-|ELMo|UniRef50|[√](https://github.com/mheinzinger/SeqVec)
 [Seq2vec](https://www.sciencedirect.com/science/article/pii/S1567422320300806?via%3Dihub)|2020.09|-|CNN-LSTM|-|×
 [UDSMProt](https://academic.oup.com/bioinformatics/article/36/8/2401/5698270)|2020.01|-|AWD-LSTM|UniProtKB/Swiss-Prot|×
@@ -104,6 +104,18 @@ Model | Time | Params | Base model | Pretraining Dataset | Code
 [ProtGPT2](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.abstract)|2021.01|738M|GPT|UniRef50|[√](https://github.com/TeletcheaLab/protGPT2)
 [RITA](https://arxiv.org/abs/2205.05789)|2022.05|1.2B|GPT|UniRef100|×
 [ZymCTRL](https://www.mlsb.io/papers_2022/ZymCTRL_a_conditional_language_model_for_the_controllable_generation_of_artificial_enzymes.pdf)|2022.01|738M|GPT|BRENDA|[√](https://huggingface.co/AI4PD/ZymCTRL)
+
+Model         | Time    | Params        | Pretraining Dataset          | Code
+--------------|---------|---------------|------------------------------|-----------------------------------------
+[DARK](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1)          | 2022.01 | 128M          | -                            | ×
+[IgLM](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v2.abstract)          | 2022.12 | 13M           | -                            | [√](https://github.com/Graylab/IgLM)
+[PoET](https://proceedings.neurips.cc/paper_files/paper/2023/hash/f4366126eba252699b280e8f93c0ab2f-Abstract-Conference.html)          | 2023.11 | 57M-604M      | -                            | ×
+[ProGen](https://arxiv.org/abs/2004.03497)        | 2020.03 | 1.2B          | UniParc, UniProtKB/Swiss-Prot | [√](https://github.com/salesforce/progen)
+[ProGen2](https://www.cell.com/cell-systems/abstract/S2405-4712(23)00272-7?s=35)       | 2023.10 | 151M-6.4B     | UniRef90, BFD30, PDB         | [√](https://github.com/salesforce/progen)
+[ProLLaMA](https://arxiv.org/html/2402.16445v1)      | 2024.02 | -             | UniRef50                     | [√](https://github.com/PKU-YuanGroup/ProLLaMA)
+[ProtGPT2](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.abstract)      | 2021.01 | 738M          | UniRef50                     | [√](https://huggingface.co/nferruz/ProtGPT2)
+[RITA](https://arxiv.org/abs/2205.05789)          | 2022.05 | 1.2B          | UniRef100                    | ×
+[ZymCTRL](https://www.mlsb.io/papers_2022/ZymCTRL_a_conditional_language_model_for_the_controllable_generation_of_artificial_enzymes.pdf)       | 2022.01 | 738M          | BRENDA                       | [√](https://huggingface.co/AI4PD/ZymCTRL)
 
 
 #### Encoder-decoder models
