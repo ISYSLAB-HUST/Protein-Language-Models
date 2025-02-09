@@ -108,21 +108,19 @@ Model         | Time    | Params        | Pretraining Dataset          | Code
 
 #### Encoder-decoder models
 
-Model | Time | Params | Base model | Pretraining Dataset | Code
----- | ---- | ---- | ---- | ---- | ---- |
-[Ankh](https://arxiv.org/abs/2301.06568)|2023.01|450M,1.15B|Transformer|-|[√](https://github.com/agemagician/Ankh)
-[Fold2Seq](https://proceedings.mlr.press/v139/cao21a.html)|2021.01|-|Transformer|-|[√](https://github.com/IBM/fold2seq)
-[LM-Design](http://proceedings.mlr.press/v202/zheng23a.html)|2023.02|664M|GPT|-|×
-[MSA-to-proteion transformer](https://arxiv.org/abs/2204.01168)|2022.04|-|Transformer|-|×
-[MSA-Augmenter](https://arxiv.org/abs/2306.01824?context=cs.LG)|2023.06|260M|Transformer|UniRef50|[√](https://github.com/lezhang7/MSA-Augmentor)
-[MSA-Transformer](http://proceedings.mlr.press/v139/rao21a.html?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news)|2021.07|100M|Transformer|UniRef50|[√](https://github.com/rmrao/msa-transformer)
-[pAbT5](https://arxiv.org/abs/2301.02748)|2023.10|-|T5|-|×
-[Prost-T5](https://www.biorxiv.org/content/10.1101/2023.07.23.550085v2.abstract)|2023.07|3B|T5|PDB|[√](https://github.com/mheinzinger/ProstT5)
-[ProSST](https://www.biorxiv.org/content/10.1101/2024.04.15.589672v2)|2024.05|-|Transformer|AlphaFoldDB,CATH|[√](https://github.com/ai4protein/ProSST)
-[Prot-T5](https://ieeexplore.ieee.org/abstract/document/9477085)|2022.10|3B/11B|T5|UniRef50,BFD|[√](https://huggingface.co/Rostlab)
-[Sapiens](https://www.tandfonline.com/doi/full/10.1080/19420862.2021.2020203)|2022.02|0.6M|-|-|[√](https://github.com/Merck/BioPhi)
-[SS-pLM](https://www.biorxiv.org/content/10.1101/2023.08.04.551626v1.abstract)|2023.08|14.8M|Transformer|UniRef50|×
-[xTrimoPGLM](https://arxiv.org/abs/2401.06199)|2023.07|100B|GLM|UniRef90,ColdFoldDB|×
+Model         | Time    | Params       | Pretraining Dataset           | Code
+--------------|---------|--------------|-------------------------------|----------------------------------------
+[Ankh](https://arxiv.org/abs/2301.06568)          | 2023.01 | 450M/1.15B   | UniRef50                      | [Link](https://github.com/agemagician/Ankh)
+[IgT5](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012646)          | 2024.12 | 3B           | OAS                           | ×
+[LM-Design](http://proceedings.mlr.press/v202/zheng23a.html)     | 2023.02 | 664M         | -                             | ×
+[MSA-Augmenter]https://arxiv.org/abs/2306.01824?context=cs.LG() | 2023.06 | 260M         | UniRef50                      | [Link](https://github.com/lezhang7/MSA-Augmentor)
+[ProSST](https://www.biorxiv.org/content/10.1101/2024.04.15.589672v2)        | 2024.05 | 110M         | AlphaFoldDB, CATH             | [Link](https://github.com/ai4protein/ProSST)
+[ProstT5](https://www.biorxiv.org/content/10.1101/2023.07.23.550085v2.abstract)       | 2023.07 | 3B           | AlphaFoldDB, PDB              | [Link](https://github.com/mheinzinger/ProstT5)
+[ProtT5](https://ieeexplore.ieee.org/abstract/document/9477085)        | 2022.06 | 3B/11B       | UniRef50, BFD                 | [Link](https://huggingface.co/Rostlab/prot_t5_xl_uniref50)
+[pAbT5](https://arxiv.org/abs/2301.02748)         | 2023.10 | -            | OAS                           | ×
+[Sapiens](https://www.tandfonline.com/doi/full/10.1080/19420862.2021.2020203)       | 2022.02 | 0.6M         | OAS                           | [Link](https://github.com/Merck/BioPhi)
+[SS-pLM](https://www.biorxiv.org/content/10.1101/2023.08.04.551626v1.abstract)        | 2023.08 | 14.8M        | UniRef50                      | ×
+[xTrimoPGLM](https://arxiv.org/abs/2401.06199)    | 2023.07 | 100B         | UniRef90, ColdFoldDB          | ×
 
 
 ## Datasets
