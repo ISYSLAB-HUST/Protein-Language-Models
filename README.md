@@ -10,7 +10,7 @@ At the intersection of the rapidly growing biological data landscape and advance
 
 This is the overview of our article.
 
-![Protein-Language-Models-Overview](https://github.com/shuxiang111/Protein-Language-Models/blob/c71da17722411fb364288d313198d37384f8049d/figures/overview.png)
+![Protein-Language-Models-Overview](https://github.com/ISYSLAB-HUST/Protein-Language-Models/blob/main/figures/overview.png)
 
 ## Contents
 
