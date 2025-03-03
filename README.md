@@ -4,7 +4,7 @@ At the intersection of the rapidly growing biological data landscape and advance
 
 ## News
 
-- 🌟 [2025/02] Our paper has been submitted to a preprint server.
+- 🌟 [2025/02] Our paper has been submitted to a [preprint server](https://arxiv.org/pdf/2502.06881).
 
 ## Overview
 
