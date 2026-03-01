@@ -1,20 +1,30 @@
 # Protein-Language-Models
 
-At the intersection of the rapidly growing biological data landscape and advancements in Natural Language Processing (NLP), protein language models (PLMs) have emerged as a transformative force in modern research. These models have achieved remarkable progress, highlighting the need for timely and comprehensive overviews. However, much of the existing literature focuses narrowly on specific domains, often missing a broader analysis of PLMs. This study provides a systematic review of PLMs from a macro perspective, covering key historical milestones and current mainstream trends. We focus on the models themselves and their evaluation metrics, exploring aspects such as model architectures, positional encoding, scaling laws, and datasets. In the evaluation section, we discuss benchmarks and downstream applications. To further support ongoing research, we introduce relevant mainstream tools. Lastly, we critically examine the key challenges and limitations in this rapidly evolving field.
+Protein language models (PLMs) are rapidly reshaping computational biology. As biological sequence and structure data scale up, NLP-style modeling techniques are becoming central to protein representation learning, prediction, and design.
+
+This repository accompanies our systematic review of PLMs and provides a **curated, model-centric knowledge base**. It summarizes historical milestones, mainstream architectures, pretraining corpora, evaluation benchmarks, and practical toolchains. In addition to cataloging resources, we discuss key open challenges in this fast-moving area.
 
 ## News
 
 - 🌟 [2025/02] Our paper has been submitted to a [preprint server](https://arxiv.org/pdf/2502.06881).
 
+## Quick Start
+
+- Read the paper preprint: [arXiv:2502.06881](https://arxiv.org/pdf/2502.06881)
+- Browse the curated PLM lists in **Models**, **Datasets**, and **Tools** below.
+- Use this repository as a reference index when selecting models, corpora, or evaluation suites for new projects.
+
 ## Overview
 
-This is the overview of our article.
+The figure below summarizes the scope of the review.
 
 ![Protein-Language-Models-Overview](https://github.com/ISYSLAB-HUST/Protein-Language-Models/blob/main/figures/overview.png)
 
 ## Contents
 
 - [News](#news)
+- [Quick Start](#quick-start)
+- [Overview](#overview)
 - [Contents](#contents)
 - [Models](#models)
   - [Non\-transformer\-based models](#non-transformer-based-models)
@@ -37,7 +47,9 @@ This is the overview of our article.
 
 ## Models
 
-We categorize protein models into two sections: Non-transformer-based models and Transformer-based models. The Transformer-based models are further divided into three parts: Encoder-only models, Decoder-only models, and Encoder-decoder models. In the following table, we provide related information on each model, including the paper link, release time, parameters, base model, pretraining dataset, and whether the model is open-source, along with the link to the open-source code for users to reference(Models are sorted alphabetically by their names).
+We categorize PLMs into **non-transformer-based** and **transformer-based** families. Transformer models are further split into **encoder-only**, **decoder-only**, and **encoder-decoder** paradigms.
+
+The tables below include publication links, release dates, parameter scales, backbone types, pretraining datasets, and open-source availability. Models are listed alphabetically within each category.
 
 ### Non-transformer-based models
 
@@ -125,7 +137,12 @@ Model         | Time    | Params       | Pretraining Dataset           | Code
 
 ## Datasets
 
-Protein datasets can be classified into two categories depending on whether they include annotations: pre-training datasets and benchmarks. Pre-training datasets are typically used for self-supervised pre-training as they lack labels, whereas benchmarks, which contain labeled data, are used for supervised fine-tuning or model evaluation. We provide the relevant papers and links for the pre-training datasets and benchmarks of the present popular protein language models in the following table(Pre trained datasets and benchmarks are sorted alphabetically by their names).The pre training datasets are divided into sequence datasets and structural datasets, and the benchmarks are divided into structural benchmarks, functional benchmarks, and other benchmarks.
+Depending on whether annotations are available, datasets are divided into **pretraining datasets** and **benchmarks**.
+
+- **Pretraining datasets** are typically unlabeled and used for self-supervised learning.
+- **Benchmarks** are labeled and used for fine-tuning and evaluation.
+
+The following tables summarize widely used resources in PLM research. Entries are listed alphabetically and grouped into sequence/structural pretraining data and structural/functional/other benchmarks.
 
 ### Pre-training datasets
 
@@ -178,7 +195,7 @@ Dataset | Time | Scale | Link
 
 ## Tools
 
-We provide links to commonly used protein tools in the following table for readers to use(Tools are sorted alphabetically by their names).The tools are divided into sequence tools, structural tools, and other tools
+We also list commonly used protein research tools, grouped into sequence, structural, and other utilities. Entries are sorted alphabetically.
 
 ### Sequence tools
 Tool | Link
@@ -199,6 +216,5 @@ Tool | Link
 ---- | ----
 t-SNE|[√](https://scikit-learn.org/0.18/preface.html)
 Umap|[√](https://umap-learn.readthedocs.io/en/latest/)
-
 
 
